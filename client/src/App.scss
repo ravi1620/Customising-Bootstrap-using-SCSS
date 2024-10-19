@@ -1,0 +1,23 @@
+
+$primary:violet;
+$secondary: indigo;     
+$success:  blue;
+ $warning:          green;
+ $danger:      yellow;
+ $info:        orange;
+$light:      red;
+$dark:purple;
+
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgb(57, 197, 38),white);
+    background-repeat: no-repeat;
+}
+
+h1{
+    font-style: italic;
+}
